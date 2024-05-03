@@ -1,0 +1,123 @@
+*{
+    text-decoration:none ;
+    margin: 0px;
+    padding:0px;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height:100vh;
+}
+
+.wrapper{
+    width: 1100px;
+    margin:auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color:black;
+    text-align: left;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height:  60px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:beige;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.sticker{
+    float: left; 
+    margin-top: 1%; 
+    display: block; 
+    margin-right: 100px;
+    margin-left: 120px;
+    border-radius: 3%; 
+}
+.welcome-text {
+    font: rgb(81, 49, 49) ;
+    position: fixed; 
+    top: 21%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 40px; 
+    font-family: Arial, sans-serif; 
+    padding: 80px; 
+    border-radius: 20px; 
+}
+
+.teks-home {
+    font: brown ;
+    position: fixed; 
+    top: 37%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-family: Arial, sans-serif;
+    padding: 15px; 
+    border-radius: 20px; 
+    font-size: 30px;
+    border: 3px solid brown;
+    border-radius: 5px;
+}
+
+body {
+    background-image: url('cover\ 2.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    background-position: cover;  
+}
+
+.GIFT
+{
+    float: left; 
+    margin-top: 1%;
+    display: block; 
+    margin-right: 40px;
+    margin-left: 800px;
+    border-radius: 3%;
+}
+
+
